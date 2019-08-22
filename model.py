@@ -247,7 +247,7 @@ for i in range(len(alpha)):
                 validation_steps=math.ceil(len(validation_data)/batch_size), 
                 epochs=10,callbacks=[EarlyStopping(patience=2)], verbose=1)
 
-    model.save('./model_{0}.h5'.format(alpha[i]*10))
+    model.save('./model_alpha_{0}.h5'.format(alpha[i]*10))
     print("{0}/8 finish!".format(i+1))
 
 #endfor
