@@ -252,5 +252,7 @@ for i in range(len(alpha)):
 
 #endfor
 
+### my best model is ""model_alpha_2.0.h5" and this is renamed "model.h5" in my repository.
+
 
 
